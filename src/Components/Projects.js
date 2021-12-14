@@ -13,7 +13,7 @@ function Projects() {
     <div className = "container">
     <h3 className ="projects">Projects</h3>
     <Card classname="Card">
-    <Card style={{ width: '25rem' }} className="Card">
+    <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" height="90%" width="25%" src={safetravel}/>
         <Card.Body>
           <Card.Title><h5>Safe Travel Web Application</h5></Card.Title>
@@ -24,7 +24,7 @@ function Projects() {
   </Card.Body>
 </Card>
 <Card classname="Card">
-<Card style={{ width: '25rem' }} className="Card">
+<Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src={adulting}/>
         <Card.Body>
           <Card.Title><h5>Adulting Web Application</h5></Card.Title>
@@ -35,7 +35,7 @@ function Projects() {
   </Card.Body>
 </Card>
 <Card classname="Card">
-<Card style={{ width: '25rem' }} className="Card">
+<Card style={{ width: '25rem' }}>
       <Card.Img variant="top" height="70%" src={hdrentals}/>
         <Card.Body>
           <Card.Title><h5>HD Rentals</h5></Card.Title>
