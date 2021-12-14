@@ -13,7 +13,7 @@ function Projects() {
     <div className = "container">
     <h3 className ="projects">Projects</h3>
     
-    <Card style={{ width: '25rem' }}>
+    <Card style={{ width: '25rem' }} className="Card">
       <Card.Img variant="top" height="90%" width="25%" src={safetravel}/>
         <Card.Body>
           <Card.Title><h5>Safe Travel Web Application</h5></Card.Title>
@@ -23,7 +23,7 @@ function Projects() {
     <Button variant="primary" a href="https://safetravel-s.netlify.app/index.html">SafeTravel</Button>
   </Card.Body>
 </Card>
-<Card style={{ width: '25rem' }}>
+<Card style={{ width: '25rem' }} className="Card">
       <Card.Img variant="top" src={adulting}/>
         <Card.Body>
           <Card.Title><h5>Adulting Web Application</h5></Card.Title>
@@ -33,7 +33,7 @@ function Projects() {
     <Button variant="primary" a href="https://adultingfullstack.herokuapp.com">Adulting</Button>
   </Card.Body>
 </Card>
-<Card style={{ width: '25rem' }}>
+<Card style={{ width: '25rem' }} className="Card">
       <Card.Img variant="top" height="70%" src={hdrentals}/>
         <Card.Body>
           <Card.Title><h5>HD Rentals</h5></Card.Title>
