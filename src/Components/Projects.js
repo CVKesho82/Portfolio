@@ -1,8 +1,8 @@
 import {React, useState} from 'react';
-import {Carousel, render} from "react-bootstrap-carousel";
+// import {Carousel, render} from "react-bootstrap-carousel";
 import {Card,Button} from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.css";
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+// import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import safetravel from "../Images/safetravel.png";
 import adulting from "../Images/adulting.png";
 import hdrentals from "../Images/hdrentals.png";
