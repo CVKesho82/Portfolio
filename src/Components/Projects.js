@@ -8,15 +8,19 @@ import hdrentals from "../Images/hdrentals.png";
 
 function Projects() {
   return (
+    
+    
     <div className = "container">
+    <h3 className ="projects">Projects</h3>
+    
     <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src={safetravel}/>
+      <Card.Img variant="top" height="90%" width="25%" src={safetravel}/>
         <Card.Body>
           <Card.Title><h5>Safe Travel Web Application</h5></Card.Title>
     <Card.Text>
     <h6>Application focused on providing COVID-19 stats on travel destinations. </h6>
     </Card.Text>
-    <Button variant="primary">https://safetravel-s.netlify.app/index.html</Button>
+    <Button variant="primary" a href="https://safetravel-s.netlify.app/index.html">SafeTravel</Button>
   </Card.Body>
 </Card>
 <Card style={{ width: '25rem' }}>
@@ -26,17 +30,17 @@ function Projects() {
     <Card.Text>
     <h6>An open-forum web application for adults to ask other adults questions about "adulting". </h6>
     </Card.Text>
-    <Button variant="primary">https://adultingfullstack.herokuapp.com</Button>
+    <Button variant="primary" a href="https://adultingfullstack.herokuapp.com">Adulting</Button>
   </Card.Body>
 </Card>
 <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src={hdrentals}/>
+      <Card.Img variant="top" height="70%" src={hdrentals}/>
         <Card.Body>
           <Card.Title><h5>HD Rentals</h5></Card.Title>
     <Card.Text>
     <h6>An application designed to help a friend and small business owner rent his properties in Atlanta, GA. </h6>
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button variant="primary" a href="https://github.com/CVKesho82/HiddenDiamondRentals">GitHub Code</Button>
   </Card.Body>
 </Card>
       
