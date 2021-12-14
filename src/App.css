@@ -46,6 +46,12 @@
 p{
   color:black;
 }
+h1{
+  color: white;
+}
+h2{
+  color: white;
+}
 h3{
   color:black;
 }
@@ -56,15 +62,18 @@ h5{
 .container {
   display:flex;
   flex-direction: row;
-  background-color:grey;
+  background-color:rgb(53, 52, 52)!important;
 }
 .container > div{
   margin:40px;
 }
 .Card{
-  background-color: grey;
+  background-color:rgb(53, 52, 52)!important;
 }
 
 .ProjectsGrid > div{
   margin:30px;
+}
+.projects{
+  align-items: center !important;
 }
