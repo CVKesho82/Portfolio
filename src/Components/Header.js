@@ -2,6 +2,7 @@ import React from 'react';
 import {SiGmail,SiLinkedin,SiGithub} from 'react-icons/si';
 import "bootstrap/dist/css/bootstrap.css";
 import {Card} from 'react-bootstrap';
+import {SiHtml5,SiCss3,SiBootstrap,SiPostgresql,SiSequelize,SiReact,SiJavascript,SiNodedotjs} from 'react-icons/si';
 
 function Header() {
     return (
