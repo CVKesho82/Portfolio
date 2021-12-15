@@ -1,5 +1,5 @@
 import {React} from 'react';
-import {Card,Button} from 'react-bootstrap';
+import {Card,Button, CardGroup} from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.css";
 import safetravel from "../Images/safetravel.png";
 import adulting from "../Images/adulting.png";
@@ -10,8 +10,8 @@ function Projects() {
   return (   
     
     <div className = "container">
-    <h4 className ="projects">Projects</h4>
     
+  <CardGroup className="card"><h3>Projects</h3>
     <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" height="90%" width="25%" src={safetravel}/>
         <Card.Body>
@@ -44,6 +44,8 @@ function Projects() {
     <Button variant="primary" a href="https://github.com/CVKesho82/HiddenDiamondRentals">GitHub Code</Button>
   </Card.Body>
 </Card>
+</CardGroup>
+
       
     </div>
   )

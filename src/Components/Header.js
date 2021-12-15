@@ -10,13 +10,13 @@ function Header() {
         <Card className="Card">
             <h1>CARMEN V KESHO</h1>
             <h2><a href= "mailto:miss.cdv@gmail.com"><SiGmail/>miss.cdv@gmail.com</a>{"      "}<a href="https://www.linkedin.com/in/carmenvkesho/"><SiLinkedin/></a>{"       "}  <a href="https://github.com/CVKesho82"><SiGithub/></a> </h2>
-            
-            <h1>Technical Skills</h1>
+            <br></br>
+            <h2>Technical Skills</h2>
             <Card.Body>
-            <h4>Front End <SiHtml5 />{"  "}<SiCss3 />{"  "}<SiBootstrap />{"  "}
+            <h2>Front End <SiHtml5 />{"  "}<SiCss3 />{"  "}<SiBootstrap />{"  "}
             <SiReact />{"  "}<SiJavascript />{"  "}
-            </h4>
-            <h4>Back End <SiPostgresql />{"  "}<SiSequelize />{"  "}<SiNodedotjs />{"  "}</h4>        
+            </h2>
+            <h2>Back End <SiPostgresql />{"  "}<SiSequelize />{"  "}<SiNodedotjs />{"  "}</h2>        
             
           </Card.Body>
         </Card>   
