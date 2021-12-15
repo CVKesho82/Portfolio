@@ -1,26 +1,27 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
+import {Card, CardGroup} from 'react-bootstrap';
 
 function Resume() {
     return (
-        <div className ="ProjectsGrid">
-        <Card className="Card">
-          <Card.Header as="h5">IT Project Manager</Card.Header>
+      <div className ="container">
+        <CardGroup className="card"><h3>Resume {" "}</h3>
+        <Card>
+          <Card.Header as="h5">IT Project Manager (Enterprise Software)</Card.Header>
           <Card.Body>
             <Card.Title>WarnerMedia, Atlanta, GA</Card.Title>
             <Card.Title>Jan 2017-Present</Card.Title>
             <Card.Text>
-              <h6>With supporting text below as a natural lead-in to additional content.
+              <h6>Managed team of 10-15 people (onshore and offshore) through the successful implementation of 30+ mid-sized (300K-800K) operating and capital projects 
             </h6></Card.Text>
           </Card.Body>
         </Card>
         <Card>
           <Card.Header as="h5">Operations/Special Projects Manager</Card.Header>
           <Card.Body>
-            <Card.Title>Conserte Consulting, Atlanta, GA</Card.Title>
+            <Card.Title>Conserte, Atlanta, GA</Card.Title>
             <Card.Title>Oct 2017 - Dec 2019</Card.Title>
             <Card.Text>
-              <h6>With supporting text below as a natural lead-in to additional content.
+              <h6>Streamlined the business financial and technical processes by managing a team of 3 through the successful execution of 4 small to medium projects
             </h6></Card.Text>
           </Card.Body>
         </Card>
@@ -30,10 +31,11 @@ function Resume() {
             <Card.Title>Cox Automotive, Atlanta, GA</Card.Title>
             <Card.Title>Mar 2017- Jul 2017 </Card.Title>
             <Card.Text>
-              <h6>With supporting text below as a natural lead-in to additional content.
+              <h6>Developed the learning strategy and currciulum for the enterprise Oracle E Business Suite Implementation
             </h6></Card.Text>
           </Card.Body>
         </Card>
+        </CardGroup>
 
             
         </div>
@@ -41,6 +43,3 @@ function Resume() {
 }
 
 export default Resume
-
-
-
