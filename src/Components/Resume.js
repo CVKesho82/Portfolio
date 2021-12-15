@@ -10,7 +10,7 @@ function Resume() {
             <Card.Title>WarnerMedia, Atlanta, GA</Card.Title>
             <Card.Title>Jan 2017-Present</Card.Title>
             <Card.Text>
-              <h6>With supporting text below as a natural lead-in to additional content.
+              <h6>Managed a team of 10-15 people (onshore and offshore) through the successful implementation of more than 30 mid-sized (300K-800K) operating and capital projects 
             </h6></Card.Text>
           </Card.Body>
         </Card>
@@ -20,7 +20,7 @@ function Resume() {
             <Card.Title>Conserte Consulting, Atlanta, GA</Card.Title>
             <Card.Title>Oct 2017 - Dec 2019</Card.Title>
             <Card.Text>
-              <h6>With supporting text below as a natural lead-in to additional content.
+              <h6>Managed the implmenetation of Office365 along with other process improvement projects
             </h6></Card.Text>
           </Card.Body>
         </Card>
@@ -30,7 +30,7 @@ function Resume() {
             <Card.Title>Cox Automotive, Atlanta, GA</Card.Title>
             <Card.Title>Mar 2017- Jul 2017 </Card.Title>
             <Card.Text>
-              <h6>With supporting text below as a natural lead-in to additional content.
+              <h6>Served as a consultant to create the the learning strategy and curriculum for the Implementation of Oracle E-Business Suite.
             </h6></Card.Text>
           </Card.Body>
         </Card>
