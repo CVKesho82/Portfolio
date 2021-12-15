@@ -11,7 +11,7 @@ function Projects() {
     
     
     <div className = "container">
-    <h3 className ="projects">Projects</h3>
+    <h4 className ="projects">Projects</h4>
     <Card classname="Card">
     <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" height="90%" width="25%" src={safetravel}/>
