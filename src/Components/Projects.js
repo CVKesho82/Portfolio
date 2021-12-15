@@ -9,9 +9,9 @@ import hdrentals from "../Images/hdrentals.png";
 function Projects() {
   return (
     
-    
     <div className = "container">
     <h4 className ="projects">Projects</h4>
+    
     <Card classname="Card">
     <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" height="90%" width="25%" src={safetravel}/>
@@ -23,7 +23,8 @@ function Projects() {
     <Button variant="primary" a href="https://safetravel-s.netlify.app/index.html">SafeTravel</Button>
   </Card.Body>
 </Card>
-<Card classname="Card">
+
+<Card className="Card">
 <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src={adulting}/>
         <Card.Body>
@@ -34,7 +35,8 @@ function Projects() {
     <Button variant="primary" a href="https://adultingfullstack.herokuapp.com">Adulting</Button>
   </Card.Body>
 </Card>
-<Card classname="Card">
+
+<Card className="Card">
 <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" height="70%" src={hdrentals}/>
         <Card.Body>
@@ -45,8 +47,7 @@ function Projects() {
     <Button variant="primary" a href="https://github.com/CVKesho82/HiddenDiamondRentals">GitHub Code</Button>
   </Card.Body>
 </Card>
-      
-    </div>
+     </div>
   )
 }
 
