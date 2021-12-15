@@ -1,5 +1,4 @@
 import './App.css';
-import TechSkills from './Components/TechSkills';
 import Header from './Components/Header';
 import Resume from './Components/Resume';
 import "bootstrap/dist/css/bootstrap.css";
@@ -11,8 +10,6 @@ function App() {
       <header className="App-header">
         <p>
           <Header />
-          <br></br>
-          <TechSkills />
           <br></br>
           <Projects />
           <br></br>
