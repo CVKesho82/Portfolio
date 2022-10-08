@@ -8,8 +8,8 @@ function Resume() {
         <Card>
           <Card.Header as="h5">IT Project Manager (Enterprise Software)</Card.Header>
           <Card.Body>
-            <Card.Title>WarnerMedia, Atlanta, GA</Card.Title>
-            <Card.Title>Jan 2017-Present</Card.Title>
+            <Card.Title>Warner Bros Discovery, Atlanta, GA</Card.Title>
+            <Card.Title>Mar 2018-Present</Card.Title>
             <Card.Text>
               <h6>Managed team of 10-15 people (onshore and offshore) through the successful implementation of 30+ mid-sized (300K-800K) operating and capital projects 
             </h6></Card.Text>
