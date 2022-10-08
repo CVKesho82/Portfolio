@@ -11,7 +11,7 @@ function Resume() {
             <Card.Title>Warner Bros Discovery, Atlanta, GA</Card.Title>
             <Card.Title>Mar 2018-Present</Card.Title>
             <Card.Text>
-              <h6>Managed team of 10-15 people (onshore and offshore) through the successful implementation of 30+ mid-sized (300K-800K) operating and capital projects 
+              <h6>Managed team of 15+ people (onshore and offshore) through the successful implementation of 30+ mid-sized (300K-800K) operating and capital projects 
             </h6></Card.Text>
           </Card.Body>
         </Card>
