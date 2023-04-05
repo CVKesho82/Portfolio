@@ -9,9 +9,9 @@ function Resume() {
           <Card.Header as="h5">IT Project Manager (Enterprise Software)</Card.Header>
           <Card.Body>
             <Card.Title>WarnerMedia, Atlanta, GA</Card.Title>
-            <Card.Title>Jan 2017-Present</Card.Title>
+            <Card.Title>Mar 2018-Present</Card.Title>
             <Card.Text>
-              <h6>Managed team of 10-15 people (onshore and offshore) through the successful implementation of 30+ mid-sized (300K-800K) operating and capital projects 
+              <h6>Led more than 20 team members, including onshore, offshore, QA and vendor team members, through the implementation of a portfolio of mid-sized (300-1.1M) capital and operating projects 
             </h6></Card.Text>
           </Card.Body>
         </Card>

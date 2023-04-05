@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import safetravel from "../Images/safetravel.png";
 import adulting from "../Images/adulting.png";
 import hdrentals from "../Images/hdrentals.png";
+import keshogrentals from "../Images/screenshotskeshogrouprental.jpg"
 
 
 function Projects() {
@@ -15,7 +16,7 @@ function Projects() {
     <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" height="90%" width="25%" src={safetravel}/>
         <Card.Body>
-          <Card.Title><h5>Safe Travel Web Application</h5></Card.Title>
+          <Card.Title><h5>Safe Travel</h5></Card.Title>
     <Card.Text>
     <h6>Application focused on providing COVID-19 stats on travel destinations. </h6>
     </Card.Text>
@@ -26,7 +27,7 @@ function Projects() {
 <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src={adulting}/>
         <Card.Body>
-          <Card.Title><h5>Adulting Web Application</h5></Card.Title>
+          <Card.Title><h5>Adulting</h5></Card.Title>
     <Card.Text>
     <h6>An open-forum web application for adults to ask other adults questions about "adulting". </h6>
     </Card.Text>
@@ -39,9 +40,22 @@ function Projects() {
         <Card.Body>
           <Card.Title><h5>HD Rentals</h5></Card.Title>
     <Card.Text>
-    <h6>An application designed to help a friend and small business owner rent his properties in Atlanta, GA. </h6>
+    <h6>An application designed to help a small business owner market rental properties in Atlanta, GA. </h6>
     </Card.Text>
     <Button variant="primary" a href="https://github.com/CVKesho82/HiddenDiamondRentals">GitHub Code</Button>
+  </Card.Body>
+</Card>
+
+<Card style={{ width: '25rem' }}>
+      <Card.Img variant="top" height="70%" src={keshogrentals}/>
+        <Card.Body>
+          <Card.Title><h5>Kesho Group Rentals</h5></Card.Title>
+    <Card.Text>
+    <h6>Application designed for luxury rentals in Atlanta, GA. </h6>
+    </Card.Text>
+    <Button variant="primary" a href="https://www.keshogrouprentals.com">
+    
+    Kesho Group</Button>
   </Card.Body>
 </Card>
 </CardGroup>
