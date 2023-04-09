@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import safetravel from "../Images/safetravel.png";
 import adulting from "../Images/adulting.png";
 import hdrentals from "../Images/hdrentals.png";
+import kesho from "../Images/screenshotskeshogrouprental.jpg";
 
 
 function Projects() {
@@ -42,6 +43,16 @@ function Projects() {
     <h6>An application designed to help a friend and small business owner rent his properties in Atlanta, GA. </h6>
     </Card.Text>
     <Button variant="primary" a href="https://github.com/CVKesho82/HiddenDiamondRentals">GitHub Code</Button>
+  </Card.Body>
+</Card>
+<Card style={{ width: '25rem' }}>
+      <Card.Img variant="top" height="70%" src={kesho}/>
+        <Card.Body>
+          <Card.Title><h5>Kesho Group Rentals</h5></Card.Title>
+    <Card.Text>
+    <h6>An application designed to rent properties in Atlanta, GA. </h6>
+    </Card.Text>
+    <Button variant="primary" a href="https://www.keshogrouprentals.com/">Kesho Group</Button>
   </Card.Body>
 </Card>
 </CardGroup>
