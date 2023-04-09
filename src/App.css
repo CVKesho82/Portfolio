@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url(./Images/greenbead.jpg)!important;
+  background-image: url(./Images/123.jpg)!important;
   background-repeat: no-repeat;
   background-size: cover; 
 }
@@ -70,13 +70,13 @@ h6{
 .container {
   display:flex;
   flex-direction: row;
-  background-color:rgb(53, 52, 52)!important;
+  background-color:rgb(17, 16, 58)!important;
 }
 .container > div{
   margin:40px;
 }
 .Card{
-  background-color:rgb(53, 52, 52)!important;
+  background-color:rgb(17, 16, 58)!important;
 }
 
 .ProjectsGrid > div{
