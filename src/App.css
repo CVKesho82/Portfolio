@@ -73,9 +73,9 @@ h6{
 }
 /*****************************************Media Query*********************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and  (max-width: 768px) {
+@media all and  (max-width: 768px) {
   body{
-    width:fit-content;
+    width:100%;
     
   }
   

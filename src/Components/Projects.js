@@ -18,7 +18,7 @@ function Projects() {
         <Card.Body>
           <Card.Title><h5>Safe Travel Web Application</h5></Card.Title>
     <Card.Text>
-    <h6>Application focused on providing COVID-19 stats on travel destinations. </h6>
+    <h6>Group project: Application focused on providing COVID-19 stats on travel destinations. </h6>
     </Card.Text>
     <Button variant="primary" a href="https://safetravel-s.netlify.app/index.html">SafeTravel</Button>
   </Card.Body>
@@ -29,7 +29,7 @@ function Projects() {
         <Card.Body>
           <Card.Title><h5>Adulting Web Application</h5></Card.Title>
     <Card.Text>
-    <h6>An open-forum web application for adults to ask other adults questions about "adulting". </h6>
+    <h6>Group Project: An open-forum web application for adults to ask other adults questions about "adulting". </h6>
     </Card.Text>
     <Button variant="primary" a href="https://adultingfullstack.herokuapp.com">Adulting</Button>
   </Card.Body>
@@ -40,7 +40,7 @@ function Projects() {
         <Card.Body>
           <Card.Title><h5>HD Rentals</h5></Card.Title>
     <Card.Text>
-    <h6>An application designed to help a friend and small business owner rent his properties in Atlanta, GA. </h6>
+    <h6> Individual Project: An application designed to help a friend and small business owner rent his properties in Atlanta, GA. </h6>
     </Card.Text>
     <Button variant="primary" a href="https://github.com/CVKesho82/HiddenDiamondRentals">GitHub Code</Button>
   </Card.Body>
@@ -50,7 +50,7 @@ function Projects() {
         <Card.Body>
           <Card.Title><h5>Kesho Group Rentals</h5></Card.Title>
     <Card.Text>
-    <h6>An application designed to rent properties in Atlanta, GA. </h6>
+    <h6>Contract Project: An application designed to rent properties in Atlanta, GA. </h6>
     </Card.Text>
     <Button variant="primary" a href="https://www.keshogrouprentals.com/">Kesho Group</Button>
   </Card.Body>
